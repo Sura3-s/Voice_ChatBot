@@ -9,7 +9,7 @@ A voice-controlled AI assistant using:
 
 ---
 
-## Features:
+## Features :
 - Understands English speech (configurable for Arabic)
 - Speaks English responses with natural voice
 - Knows built-in commands (time, date, greetings)
@@ -20,14 +20,14 @@ A voice-controlled AI assistant using:
 
 ---
 
-## Requirements:
+## Requirements :
 - Python 3.9+
 - Microphone
 - Internet connection
 
 ---
 
-## Installation:
+## Installation :
 1. Clone or download this project.
 2. Install dependencies:
 ```bash
@@ -50,7 +50,7 @@ python chatbot.py
 
 ---
 
-## Usage:
+## Usage : 
 When you see "Listening... Speak now", start speaking.
 Example commands:
 - What time is it?
@@ -63,8 +63,12 @@ To exit, say: exit, quit, or خروج.
 
 ---
 
-## Files Generated:
+## Files Generated :
 - chat_log.txt → Saves text conversations.
 - recordings/ → Saves your audio recordings.
 
+---
+
+## Author :
+Made By: Sura Abdullah Alkhuzaim
 ---
