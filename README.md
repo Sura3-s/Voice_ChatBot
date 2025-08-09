@@ -71,4 +71,3 @@ To exit, say: exit, quit, or خروج.
 
 ## Author :
 Made By: Sura Abdullah Alkhuzaim
----
