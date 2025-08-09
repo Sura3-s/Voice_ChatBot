@@ -35,6 +35,8 @@ pip install torch torchvision torchaudio
 pip install transformers
 pip install SpeechRecognition
 pip install gTTS
+pip install playsound==1.2.2
+pip install pyaudio
 ```
 Note: If pyaudio fails to install on macOS, try: 
 ```bash
@@ -56,6 +58,7 @@ Example commands:
 - How are you?
 - Tell me a short story.
 - Give me tips for learning English.
+  
 To exit, say: exit, quit, or خروج.
 
 ---
@@ -64,5 +67,4 @@ To exit, say: exit, quit, or خروج.
 - chat_log.txt → Saves text conversations.
 - recordings/ → Saves your audio recordings.
 
-pip install playsound==1.2.2
-pip install pyaudio
+---
