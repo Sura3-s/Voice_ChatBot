@@ -28,7 +28,6 @@ A voice-controlled AI assistant using:
 ---
 
 ## Installation:
-
 1. Clone or download this project.
 2. Install dependencies:
 ```bash
@@ -36,5 +35,34 @@ pip install torch torchvision torchaudio
 pip install transformers
 pip install SpeechRecognition
 pip install gTTS
+```
+Note: If pyaudio fails to install on macOS, try: 
+```bash
+brew install portaudio
+pip install pyaudio
+```
+Running the Voice ChatBot:
+```bash
+python chatbot.py
+```
+
+---
+
+## Usage:
+When you see "Listening... Speak now", start speaking.
+Example commands:
+- What time is it?
+- What day is it today?
+- How are you?
+- Tell me a short story.
+- Give me tips for learning English.
+To exit, say: exit, quit, or خروج.
+
+---
+
+## Files Generated:
+- chat_log.txt → Saves text conversations.
+- recordings/ → Saves your audio recordings.
+
 pip install playsound==1.2.2
 pip install pyaudio
