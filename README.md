@@ -26,6 +26,7 @@ speechrecognition
 gtts
 playsound
 pyaudio (for microphone input)
+
 You can install the Python dependencies with:
 pip install torch transformers speechrecognition gtts playsound pyaudio
 Note: Installing pyaudio might require additional system dependencies depending on your OS.
@@ -35,14 +36,20 @@ Run the chatbot script:
 python chatbot.py
 Speak into your microphone when prompted.
 To exit the chatbot, say "exit", "quit", or "bye".
-Example Questions to Ask
-What is your name?
-Tell me a joke.
-How can I improve my English?
-What is AI?
-What day is today?
-What time is it now?
-Troubleshooting
+
+---
+
+## Example Questions to Ask :
+- What is your name?
+- Tell me a joke.
+- How can I improve my English?
+- What is AI?
+- What day is today?
+- What time is it now?
+
+--- 
+
+## Troubleshooting :
 If the chatbot does not understand your speech, try speaking clearly or reducing background noise.
 You might see warnings about tokenizer parallelism; these do not affect functionality.
 If audio playback does not work, ensure playsound is installed and configured properly on your system.
