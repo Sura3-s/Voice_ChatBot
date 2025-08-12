@@ -1,19 +1,18 @@
 # Voice ChatBot 🤖
 
-## Overview :
-This is a voice-activated AI chatbot built in Python that uses a pretrained conversational language model (facebook/blenderbot-400M-distill) to generate natural language responses.
-It listens to your speech via microphone, converts it to text, generates AI replies, and speaks back the responses. The chatbot supports basic commands like asking the current time and date.
+This is a simple Voice-to-Text AI Chatbot built in Python.  
+It listens to your voice, recognizes the speech, generates a response using an AI model, and speaks it back to you.
 
 ---
 
 ## Features :
-Speech recognition with microphone input using speech_recognition.
-Natural language generation with Hugging Face's transformers BlenderBot model.
-Text-to-speech using Google Text-to-Speech (gTTS) and playsound.
-Conversation logging to chat_log.txt.
-Audio recordings of user input saved to recordings/ folder.
-Handles simple commands (time, date, greetings).
-Exit command with keywords: "exit", "quit", or "bye".
+- Voice Recognition —> Listens and converts your speech to text.
+- AI Responses —> Answers your questions intelligently.
+- Text-to-Speech —> Speaks the AI's answer out loud.
+- Date & Time —> Can tell you the current date and time.
+- Conversation logging to chat_log.txt.
+- Audio recordings of user input saved to recordings/ folder.
+- Exit command with keywords: "exit", "quit", or "bye".
 
 ---
 
@@ -27,27 +26,21 @@ gtts
 playsound
 pyaudio (for microphone input)
 
-You can install the Python dependencies with:
-pip install torch transformers speechrecognition gtts playsound pyaudio
-Note: Installing pyaudio might require additional system dependencies depending on your OS.
-Usage
-Activate your Python environment if using virtualenv.
-Run the chatbot script:
-python chatbot.py
-Speak into your microphone when prompted.
-To exit the chatbot, say "exit", "quit", or "bye".
+---
+
+## How to Run ?
+1. Clone or download this project to your computer.
+2. Navigate to the project folder in your terminal.
+3. Activate your Python environment (if using one).
+4. Run the chatbot:
+   ```bash python chatbot.py ```
 
 ---
 
-## Example Questions to Ask :
-- What is your name?
-- Tell me a joke.
-- How can I improve my English?
-- What is AI?
-- What day is today?
-- What time is it now?
+## Example Usge :
 
---- 
+
+---
 
 ## Troubleshooting :
 If the chatbot does not understand your speech, try speaking clearly or reducing background noise.
