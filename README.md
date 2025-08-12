@@ -40,12 +40,12 @@ pip install pyaudio
 ---
 
 ## Example Usge :
- • User: “Hello, how are you?”
- • Bot: “I’m doing well, thank you! How can I help you today?”
- • User: “What’s the date today?”
- • Bot: “Today is Tuesday, August 12, 2025.”
- • User: “Exit”
- • Bot: “Goodbye!”
+- User: “Hello, how are you?”
+- Bot: “I’m doing well, thank you! How can I help you today?”
+- User: “What’s the date today?”
+- Bot: “Today is Tuesday, August 12, 2025.”
+- User: “Exit”
+- Bot: “Goodbye!”
 
 ---
 
