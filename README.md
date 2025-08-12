@@ -18,7 +18,7 @@ It listens to your voice, recognizes the speech, generates a response using an A
 ## Requirements :
 - Python 3.7+
 
-### Install required packages:
+### Install required packages :
 ```bash
 pip install torch torchvision torchaudio
 pip install transformers
