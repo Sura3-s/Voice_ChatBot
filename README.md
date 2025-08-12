@@ -33,7 +33,8 @@ pyaudio (for microphone input)
 2. Navigate to the project folder in your terminal.
 3. Activate your Python environment (if using one).
 4. Run the chatbot:
-   ```bash python chatbot.py ```
+   ```bash
+   python chatbot.py
 
 ---
 
